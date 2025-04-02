@@ -12,7 +12,9 @@ void registerUser(User *users, int *user_count) {
         showMessage("User limit reached. Cannot register more users.");
         return;
     }
+
     int newId, validId = 0;
+
     while (!validId) {
         printf("Enter new user ID: ");
         newId = getIntInput();
@@ -33,8 +35,10 @@ void registerUser(User *users, int *user_count) {
         }
         validId = 1;
     }
+
     users[*user_count].id = newId;
     int validName = 0;
+
     while (!validName) {
         printf("Enter user name: ");
         getStringInput(users[*user_count].name, sizeof(users[*user_count].name));
@@ -44,7 +48,9 @@ void registerUser(User *users, int *user_count) {
         }
         validName = 1;
     }
+
     int validPassword = 0;
+
     while (!validPassword) {
         printf("Enter password: ");
         getStringInput(users[*user_count].password, sizeof(users[*user_count].password));
@@ -54,6 +60,7 @@ void registerUser(User *users, int *user_count) {
         }
         validPassword = 1;
     }
+    
     delay(MEDIUM_DELAY);
     showProgressBar("Registering user", 50);
     showMessage("User registered successfully!");
