@@ -14,6 +14,7 @@ void searchBook(Book *library, int count) {
     printf("\n+-------------------------------+\n");
     printf("|         SEARCH BOOKS          |\n");
     printf("+-------------------------------+\n");
+
     delay(SHORT_DELAY);
     if (count == 0) {
         showMessage("Library is empty. No books to search.");
@@ -27,12 +28,14 @@ void searchBook(Book *library, int count) {
     printf("5. Year\n");
     printf("0. Back\n");
     printf("Enter your choice: ");
+
     int choice = getIntInput();
     int found = 0;
     char searchStr[100];
     int searchId, searchYear;
     Book results[MAX_BOOKS];
     int result_count = 0;
+
     switch (choice) {
         case 0:
             return;
@@ -90,14 +93,17 @@ void searchBook(Book *library, int count) {
             showMessage("Invalid choice.");
             return;
     }
+
     if (!found) {
         showMessage("No matching books found.");
         return;
     }
+
     printf("\nSearch Results (%d books found):\n", result_count);
     printf("%-5s %-25s %-20s %-15s %-6s %-8s %-8s %-8s\n", 
            "ID", "Title", "Author", "Category", "Year", "Price", "Quantity", "Borrowed");
     printf("-------------------------------------------------------------------------------------------------------------\n");
+    
     for (int i = 0; i < result_count; i++) {
         printf("%-5d %-25.25s %-20.20s %-15.15s %-6d $%-7.2f %-8d %-8d\n", 
                results[i].id, results[i].title, results[i].author, results[i].category, 

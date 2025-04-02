@@ -218,6 +218,7 @@ void statisticsMenu(Book *library, int count) {
                 int total_quantity = 0;
                 int total_borrowed = 0;
                 float total_value = 0;
+                
                 for (int i = 0; i < count; i++) {
                     total_quantity += library[i].quantity;
                     total_borrowed += library[i].borrowed;
@@ -228,7 +229,9 @@ void statisticsMenu(Book *library, int count) {
                 printf("Books Currently Borrowed: %d books\n", total_borrowed);
                 printf("Available Books: %d books\n", total_quantity - total_borrowed);
                 printf("Total Library Value: $%.2f\n", total_value);
+
                 int max_val = (total_quantity > total_borrowed) ? total_quantity : total_borrowed;
+
                 printf("\nInventory Status:\n");
                 displayBarChart("Total", total_quantity, max_val);
                 displayBarChart("Borrowed", total_borrowed, max_val);

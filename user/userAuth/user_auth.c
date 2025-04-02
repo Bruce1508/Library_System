@@ -26,12 +26,15 @@ void loginUser(User *users, int user_count, int *current_user_id) {
         showMessage("You are already logged in.");
         return;
     }
+
     int id;
     char password[50];
     printf("Enter user ID: ");
+    
     id = getIntInput();
     printf("Enter password: ");
     getStringInput(password, sizeof(password));
+
     for (int i = 0; i < user_count; i++) {
         if (users[i].id == id && strcmp(users[i].password, password) == 0) {
             *current_user_id = id;
