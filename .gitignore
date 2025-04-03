@@ -1,0 +1,13 @@
+# Ignore object files
+*.o
+
+# Ignore compiled executables
+*.exe
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
