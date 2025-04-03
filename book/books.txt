@@ -1,0 +1,81 @@
+10
+1001
+To Kill a Mockingbird
+Harper Lee
+Fiction
+1960
+12.99
+5
+2
+1002
+Dune
+Frank Herbert
+Science Fiction
+1965
+14.50
+3
+1
+1003
+The Hobbit
+J.R.R. Tolkien
+Fantasy
+1937
+11.99
+7
+3
+1004
+The Silent Patient
+Alex Michaelides
+Mystery
+2019
+16.99
+4
+2
+1005
+Thinking, Fast and Slow
+Daniel Kahneman
+Non-fiction
+2011
+24.95
+6
+4
+1006
+Steve Jobs
+Walter Isaacson
+Biography
+2011
+19.99
+3
+1
+1007
+A Brief History of Time
+Stephen Hawking
+Science
+1988
+15.95
+4
+0
+1008
+Guns, Germs, and Steel
+Jared Diamond
+History
+1997
+18.99
+2
+0
+1009
+Clean Code
+Robert C. Martin
+Programming
+2008
+29.99
+5
+3
+1010
+Atomic Habits
+James Clear
+Self-help
+2018
+13.50
+8
+5

@@ -17,6 +17,7 @@ void displayMenu() {
     printf("|  5. Search books               |\n");
     printf("|  6. Statistics                 |\n");
     printf("|  7. Borrow/Return books        |\n");
+    printf("|  8. Export books to file       |\n");
     printf("|  9. Logout                     |\n");
     printf("|  0. Exit                       |\n");
     printf("+--------------------------------+\n");
