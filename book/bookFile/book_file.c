@@ -115,8 +115,8 @@ void loadBooksFromFile(Book *library, int *book_count) {
 
 // Function to export books to a new file 
 void exportBooksToFile(Book *library, int book_count) {
-    // Bỏ qua việc kiểm tra đăng nhập để đảm bảo chức năng hoạt động
-    // Chỉ kiểm tra nếu có sách để xuất
+    // Skip login check to ensure functionality works
+    // Only check if there are books to export
     if (book_count == 0) {
         showMessage("No books to export.");
         return;
