@@ -7,7 +7,7 @@
 #ifndef BOOK_DISPLAY_H
 #define BOOK_DISPLAY_H
 
-#include "book.h"
+#include "../book.h"
 
 // Display all books in the library
 void displayAllBooks(Book *library, int count);

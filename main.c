@@ -122,7 +122,187 @@ int main() {
         library[9].quantity = 8; 
         library[9].borrowed = 5;
         
-        book_count = 10;
+        library[10].id = 1011; 
+        strcpy(library[10].title, "Educated"); 
+        strcpy(library[10].author, "Tara Westover"); 
+        strcpy(library[10].category, "Memoir"); 
+        library[10].publication_year = 2018; 
+        library[10].price = 17.99; 
+        library[10].quantity = 5; 
+        library[10].borrowed = 2;
+        
+        library[11].id = 1012; 
+        strcpy(library[11].title, "The Alchemist"); 
+        strcpy(library[11].author, "Paulo Coelho"); 
+        strcpy(library[11].category, "Fiction"); 
+        library[11].publication_year = 1988; 
+        library[11].price = 11.99; 
+        library[11].quantity = 6; 
+        library[11].borrowed = 3;
+        
+        library[12].id = 1013; 
+        strcpy(library[12].title, "Sapiens: A Brief History of Humankind"); 
+        strcpy(library[12].author, "Yuval Noah Harari"); 
+        strcpy(library[12].category, "History"); 
+        library[12].publication_year = 2014; 
+        library[12].price = 21.99; 
+        library[12].quantity = 4; 
+        library[12].borrowed = 1;
+        
+        library[13].id = 1014; 
+        strcpy(library[13].title, "The Great Gatsby"); 
+        strcpy(library[13].author, "F. Scott Fitzgerald"); 
+        strcpy(library[13].category, "Classic Literature"); 
+        library[13].publication_year = 1925; 
+        library[13].price = 9.99; 
+        library[13].quantity = 7; 
+        library[13].borrowed = 2;
+        
+        library[14].id = 1015; 
+        strcpy(library[14].title, "The Art of War"); 
+        strcpy(library[14].author, "Sun Tzu"); 
+        strcpy(library[14].category, "Philosophy"); 
+        library[14].publication_year = 500; 
+        library[14].price = 8.99; 
+        library[14].quantity = 5; 
+        library[14].borrowed = 1;
+        
+        library[15].id = 1016; 
+        strcpy(library[15].title, "Brave New World"); 
+        strcpy(library[15].author, "Aldous Huxley"); 
+        strcpy(library[15].category, "Dystopian Fiction"); 
+        library[15].publication_year = 1932; 
+        library[15].price = 12.50; 
+        library[15].quantity = 4; 
+        library[15].borrowed = 2;
+        
+        library[16].id = 1017; 
+        strcpy(library[16].title, "The Power of Habit"); 
+        strcpy(library[16].author, "Charles Duhigg"); 
+        strcpy(library[16].category, "Psychology"); 
+        library[16].publication_year = 2012; 
+        library[16].price = 16.99; 
+        library[16].quantity = 6; 
+        library[16].borrowed = 3;
+        
+        library[17].id = 1018; 
+        strcpy(library[17].title, "The Road"); 
+        strcpy(library[17].author, "Cormac McCarthy"); 
+        strcpy(library[17].category, "Post-Apocalyptic"); 
+        library[17].publication_year = 2006; 
+        library[17].price = 14.95; 
+        library[17].quantity = 3; 
+        library[17].borrowed = 1;
+        
+        library[18].id = 1019; 
+        strcpy(library[18].title, "Harry Potter and the Philosopher's Stone"); 
+        strcpy(library[18].author, "J.K. Rowling"); 
+        strcpy(library[18].category, "Young Adult Fantasy"); 
+        library[18].publication_year = 1997; 
+        library[18].price = 13.99; 
+        library[18].quantity = 10; 
+        library[18].borrowed = 6;
+        
+        library[19].id = 1020; 
+        strcpy(library[19].title, "The Hunger Games"); 
+        strcpy(library[19].author, "Suzanne Collins"); 
+        strcpy(library[19].category, "Young Adult Dystopian"); 
+        library[19].publication_year = 2008; 
+        library[19].price = 12.99; 
+        library[19].quantity = 8; 
+        library[19].borrowed = 5;
+        
+        library[20].id = 1021; 
+        strcpy(library[20].title, "Becoming"); 
+        strcpy(library[20].author, "Michelle Obama"); 
+        strcpy(library[20].category, "Autobiography"); 
+        library[20].publication_year = 2018; 
+        library[20].price = 19.99; 
+        library[20].quantity = 7; 
+        library[20].borrowed = 4;
+        
+        library[21].id = 1022; 
+        strcpy(library[21].title, "The Da Vinci Code"); 
+        strcpy(library[21].author, "Dan Brown"); 
+        strcpy(library[21].category, "Thriller"); 
+        library[21].publication_year = 2003; 
+        library[21].price = 13.95; 
+        library[21].quantity = 5; 
+        library[21].borrowed = 2;
+        
+        library[22].id = 1023; 
+        strcpy(library[22].title, "Principles of Computer Science"); 
+        strcpy(library[22].author, "David Eck"); 
+        strcpy(library[22].category, "Computer Science"); 
+        library[22].publication_year = 2016; 
+        library[22].price = 34.99; 
+        library[22].quantity = 6; 
+        library[22].borrowed = 3;
+        
+        library[23].id = 1024; 
+        strcpy(library[23].title, "Midnight's Children"); 
+        strcpy(library[23].author, "Salman Rushdie"); 
+        strcpy(library[23].category, "Magical Realism"); 
+        library[23].publication_year = 1981; 
+        library[23].price = 15.99; 
+        library[23].quantity = 4; 
+        library[23].borrowed = 1;
+        
+        library[24].id = 1025; 
+        strcpy(library[24].title, "The Joy of Cooking"); 
+        strcpy(library[24].author, "Irma S. Rombauer"); 
+        strcpy(library[24].category, "Cookbook"); 
+        library[24].publication_year = 1931; 
+        library[24].price = 24.95; 
+        library[24].quantity = 5; 
+        library[24].borrowed = 2;
+        
+        library[25].id = 1026; 
+        strcpy(library[25].title, "The Elements of Style"); 
+        strcpy(library[25].author, "Strunk & White"); 
+        strcpy(library[25].category, "Reference"); 
+        library[25].publication_year = 1918; 
+        library[25].price = 9.95; 
+        library[25].quantity = 4; 
+        library[25].borrowed = 0;
+        
+        library[26].id = 1027; 
+        strcpy(library[26].title, "The Lord of the Rings"); 
+        strcpy(library[26].author, "J.R.R. Tolkien"); 
+        strcpy(library[26].category, "Fantasy"); 
+        library[26].publication_year = 1954; 
+        library[26].price = 29.99; 
+        library[26].quantity = 8; 
+        library[26].borrowed = 4;
+        
+        library[27].id = 1028; 
+        strcpy(library[27].title, "When Breath Becomes Air"); 
+        strcpy(library[27].author, "Paul Kalanithi"); 
+        strcpy(library[27].category, "Medical Memoir"); 
+        library[27].publication_year = 2016; 
+        library[27].price = 14.99; 
+        library[27].quantity = 5; 
+        library[27].borrowed = 2;
+        
+        library[28].id = 1029; 
+        strcpy(library[28].title, "The Little Prince"); 
+        strcpy(library[28].author, "Antoine de Saint-Exupery"); 
+        strcpy(library[28].category, "Children's Literature"); 
+        library[28].publication_year = 1943; 
+        library[28].price = 8.99; 
+        library[28].quantity = 7; 
+        library[28].borrowed = 3;
+        
+        library[29].id = 1030; 
+        strcpy(library[29].title, "Economics: Principles and Policy"); 
+        strcpy(library[29].author, "William J. Baumol"); 
+        strcpy(library[29].category, "Economics"); 
+        library[29].publication_year = 2011; 
+        library[29].price = 42.99; 
+        library[29].quantity = 4; 
+        library[29].borrowed = 1;
+        
+        book_count = 30;
         
         // Save the initial books to file
         saveBooksToFile(library, book_count);

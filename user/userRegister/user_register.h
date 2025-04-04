@@ -7,7 +7,7 @@
 #ifndef USER_REGISTER_H
 #define USER_REGISTER_H
 
-#include "user.h"
+#include "../user.h"
 
 // User registration function prototype
 void registerUser(User *users, int *user_count);

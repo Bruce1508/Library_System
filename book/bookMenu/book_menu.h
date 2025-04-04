@@ -7,7 +7,7 @@
 #ifndef BOOK_MENU_H
 #define BOOK_MENU_H
 
-#include "book.h"
+#include "../book.h"
 
 // Display main menu
 void displayMenu();

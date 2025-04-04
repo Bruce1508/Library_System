@@ -7,7 +7,7 @@
 #ifndef BOOK_SEARCH_H
 #define BOOK_SEARCH_H
 
-#include "book.h"
+#include "../book.h"
 
 // Search for books in the library
 void searchBook(Book *library, int count);

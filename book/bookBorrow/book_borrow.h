@@ -7,7 +7,7 @@
 #ifndef BOOK_BORROW_H
 #define BOOK_BORROW_H
 
-#include "book.h"
+#include "../book.h"
 
 // Borrow/Return books menu and functionality
 void borrowReturnMenu(Book *library, int count);

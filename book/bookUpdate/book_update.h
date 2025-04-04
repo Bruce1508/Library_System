@@ -7,7 +7,7 @@
 #ifndef BOOK_UPDATE_H
 #define BOOK_UPDATE_H
 
-#include "book.h"
+#include "../book.h"
 
 // Update book information
 void updateBook(Book *library, int count);

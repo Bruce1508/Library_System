@@ -7,7 +7,7 @@
 #ifndef USER_FILE_H
 #define USER_FILE_H
 
-#include "user.h"
+#include "../user.h"
 
 // User file operations function prototypes
 void saveUsersToFile(User *users, int user_count);

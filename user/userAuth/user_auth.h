@@ -7,7 +7,7 @@
 #ifndef USER_AUTH_H
 #define USER_AUTH_H
 
-#include "user.h"
+#include "../user.h"
 
 // User authentication function prototypes
 void displayUserMenu();

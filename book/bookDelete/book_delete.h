@@ -7,7 +7,7 @@
 #ifndef BOOK_DELETE_H
 #define BOOK_DELETE_H
 
-#include "book.h"
+#include "../book.h"
 
 // Delete book from library
 void deleteBook(Book *library, int *count);

@@ -1,4 +1,4 @@
-10
+30
 1001
 To Kill a Mockingbird
 Harper Lee
@@ -79,3 +79,163 @@ Self-help
 13.50
 8
 5
+1011
+Educated
+Tara Westover
+Memoir
+2018
+17.99
+5
+2
+1012
+The Alchemist
+Paulo Coelho
+Fiction
+1988
+11.99
+6
+3
+1013
+Sapiens: A Brief History of Humankind
+Yuval Noah Harari
+History
+2014
+21.99
+4
+1
+1014
+The Great Gatsby
+F. Scott Fitzgerald
+Classic Literature
+1925
+9.99
+7
+2
+1015
+The Art of War
+Sun Tzu
+Philosophy
+500
+8.99
+5
+1
+1016
+Brave New World
+Aldous Huxley
+Dystopian Fiction
+1932
+12.50
+4
+2
+1017
+The Power of Habit
+Charles Duhigg
+Psychology
+2012
+16.99
+6
+3
+1018
+The Road
+Cormac McCarthy
+Post-Apocalyptic
+2006
+14.95
+3
+1
+1019
+Harry Potter and the Philosopher's Stone
+J.K. Rowling
+Young Adult Fantasy
+1997
+13.99
+10
+6
+1020
+The Hunger Games
+Suzanne Collins
+Young Adult Dystopian
+2008
+12.99
+8
+5
+1021
+Becoming
+Michelle Obama
+Autobiography
+2018
+19.99
+7
+4
+1022
+The Da Vinci Code
+Dan Brown
+Thriller
+2003
+13.95
+5
+2
+1023
+Principles of Computer Science
+David Eck
+Computer Science
+2016
+34.99
+6
+3
+1024
+Midnight's Children
+Salman Rushdie
+Magical Realism
+1981
+15.99
+4
+1
+1025
+The Joy of Cooking
+Irma S. Rombauer
+Cookbook
+1931
+24.95
+5
+2
+1026
+The Elements of Style
+Strunk & White
+Reference
+1918
+9.95
+4
+0
+1027
+The Lord of the Rings
+J.R.R. Tolkien
+Fantasy
+1954
+29.99
+8
+4
+1028
+When Breath Becomes Air
+Paul Kalanithi
+Medical Memoir
+2016
+14.99
+5
+2
+1029
+The Little Prince
+Antoine de Saint-Exupery
+Children's Literature
+1943
+8.99
+7
+3
+1030
+Economics: Principles and Policy
+William J. Baumol
+Economics
+2011
+42.99
+4
+1

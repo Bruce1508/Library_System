@@ -7,7 +7,7 @@
 #ifndef BOOK_ADD_H
 #define BOOK_ADD_H
 
-#include "book.h"
+#include "../book.h"
 
 // Add new book to library
 void addBook(Book *library, int *count);

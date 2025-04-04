@@ -64,52 +64,75 @@ void loadBooksFromFile(Book *library, int *book_count) {
         return;
     }
     
+    printf("Loading %d books from file...\n", *book_count);
+    
     // Read book data
+    int successful_reads = 0;
     for (int i = 0; i < *book_count; i++) {
         // Read ID
         if (fscanf(file, "%d\n", &library[i].id) != 1) {
-            break;
+            printf("Error reading book ID for book %d\n", i+1);
+            continue;
         }
         
         if (fgets(library[i].title, sizeof(library[i].title), file) == NULL) {
-            break;
+            printf("Error reading title for book %d (ID: %d)\n", i+1, library[i].id);
+            continue;
         }
         // Remove newline character
         library[i].title[strcspn(library[i].title, "\n")] = 0;
         
         // Read author (handle spaces)
         if (fgets(library[i].author, sizeof(library[i].author), file) == NULL) {
-            break;
+            printf("Error reading author for book %d (ID: %d)\n", i+1, library[i].id);
+            continue;
         }
         // Remove newline character
         library[i].author[strcspn(library[i].author, "\n")] = 0;
         
         // Read category (handle spaces)
         if (fgets(library[i].category, sizeof(library[i].category), file) == NULL) {
-            break;
+            printf("Error reading category for book %d (ID: %d)\n", i+1, library[i].id);
+            continue;
         }
         // Remove newline character
         library[i].category[strcspn(library[i].category, "\n")] = 0;
         
         // Read publication year
         if (fscanf(file, "%d\n", &library[i].publication_year) != 1) {
-            break;
+            printf("Error reading publication year for book %d (ID: %d)\n", i+1, library[i].id);
+            continue;
         }
         
+        // Read price
         if (fscanf(file, "%f\n", &library[i].price) != 1) {
-            break;
+            printf("Error reading price for book %d (ID: %d)\n", i+1, library[i].id);
+            continue;
         }
         
+        // Read quantity
         if (fscanf(file, "%d\n", &library[i].quantity) != 1) {
-            break;
+            printf("Error reading quantity for book %d (ID: %d)\n", i+1, library[i].id);
+            continue;
         }
         
+        // Read borrowed count
         if (fscanf(file, "%d\n", &library[i].borrowed) != 1) {
-            break;
+            printf("Error reading borrowed count for book %d (ID: %d)\n", i+1, library[i].id);
+            continue;
         }
+        
+        successful_reads++;
     }
     
     fclose(file);
+    
+    if (successful_reads != *book_count) {
+        printf("Warning: Only %d out of %d books were loaded successfully.\n", successful_reads, *book_count);
+        *book_count = successful_reads;
+    }
+    
+    printf("Book count after loading: %d\n", *book_count);
     showMessage("Books loaded successfully!");
 }
 

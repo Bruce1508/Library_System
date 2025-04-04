@@ -7,7 +7,7 @@
 #ifndef BOOK_STATS_H
 #define BOOK_STATS_H
 
-#include "book.h"
+#include "../book.h"
 
 // Display statistics menu and reports
 void statisticsMenu(Book *library, int count);
